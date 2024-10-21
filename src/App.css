@@ -1,0 +1,42 @@
+.header{
+  background-color: aqua;
+  width:1535px;
+  height: 100px;
+  margin-top: -350px;
+  
+  h1{
+    margin-top: 15px;
+    font-size: 50px;
+    color: blue;
+  }
+  @media(max-width:700px){
+    background-color: blue;
+    h1{ 
+      color: aliceblue;
+    }
+  }
+}
+.main{
+  display: flex;
+  font-size: 25px;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+
+nav{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  a{
+    color: blue;
+  }
+  @media(max-width:700px){
+    display: none;
+  }
+}
+.img_burger{
+  width:70px;
+  @media(max-width:700px){
+    display: block;
+  }
+}
